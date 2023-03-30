@@ -1,0 +1,19 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Users/noamn/CLionProjects/final/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_79cf1/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_79cf1.dir\build.make CMakeFiles/cmTC_79cf1.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/noamn/CLionProjects/final/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79cf1.dir/CheckIncludeFile.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_79cf1.dir\CheckIncludeFile.c.obj -c C:\Users\noamn\CLionProjects\final\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\Users\noamn\CLionProjects\final\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:21: fatal error: pthread.h: No such file or directory
+ #include <pthread.h>
+                     ^
+compilation terminated.
+CMakeFiles\cmTC_79cf1.dir\build.make:76: recipe for target 'CMakeFiles/cmTC_79cf1.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_79cf1.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/noamn/CLionProjects/final/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_79cf1/fast' failed
+mingw32-make.exe: *** [cmTC_79cf1/fast] Error 2
+
+
+

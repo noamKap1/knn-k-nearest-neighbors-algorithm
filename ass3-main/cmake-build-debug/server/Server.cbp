@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Server"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\client\;CMake Files\server\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/noamn/CLionProjects/final/cmake-build-debug/server"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/noamn/CLionProjects/final/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/noamn/CLionProjects/final/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/noamn/CLionProjects/final/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/noamn/CLionProjects/final/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Server">
+				<Option output="C:/Users/noamn/CLionProjects/final/cmake-build-debug/server/Server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/noamn/CLionProjects/final/cmake-build-debug/server"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/noamn/CLionProjects/final/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 Server"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/noamn/CLionProjects/final/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/noamn/CLionProjects/final/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/noamn/CLionProjects/final/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Server/fast">
+				<Option output="C:/Users/noamn/CLionProjects/final/cmake-build-debug/server/Server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/noamn/CLionProjects/final/cmake-build-debug/server"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/noamn/CLionProjects/final/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 Server/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/noamn/CLionProjects/final/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/noamn/CLionProjects/final/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/noamn/CLionProjects/final/cmake-build-debug/server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/CLI.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/Classifiable.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/Classifier.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/CsvReader.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/CsvReader.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/Data.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/Flower.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/Flower.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/IOs/DefaultIO.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/IOs/SocketIO.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/IOs/SocketIO.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/IOs/StandardIO.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/IOs/StandardIO.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/Server.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/Server.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/commands/ChangeAlgorithmPropertiesCommand.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/commands/ClassifyCommand.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/commands/Command.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/commands/CommandLineResultsCommand.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/commands/ConfusionMatrixCommand.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/commands/FileResultsCommand.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/commands/UploadCommand.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/distances/CheDistance.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/distances/Distance.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/distances/EucDistance.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/distances/ManDistance.h">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/main.cpp">
+			<Option target="Server"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\client\"/>
+		</Unit>
+		<Unit filename="C:/Users/noamn/CLionProjects/final/server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\server\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
